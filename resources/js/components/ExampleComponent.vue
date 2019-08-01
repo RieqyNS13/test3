@@ -121,7 +121,6 @@
             this.latLong.lat = data.Latitude;
             this.latLong.long = data.Longitude;
             this.initMap(); 
-            
             console.log(this.latLong.lat);
         },
         initMap:function(){
