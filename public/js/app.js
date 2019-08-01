@@ -1968,8 +1968,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             case 0:
               this.latLong.lat = this.dataDusun[0].Latitude;
               this.latLong["long"] = this.dataDusun[0].Longitude;
+              this.initMap();
 
-            case 2:
+            case 3:
             case "end":
               return _context.stop();
           }

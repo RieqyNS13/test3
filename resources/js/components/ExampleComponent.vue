@@ -104,7 +104,7 @@
     async mounted() {
         this.latLong.lat = this.dataDusun[0].Latitude;
         this.latLong.long = this.dataDusun[0].Longitude;
-        
+        this.initMap();
     },
     data: () => ({
       //name: 'google-map',
